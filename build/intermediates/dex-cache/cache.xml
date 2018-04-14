@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\77fa52380ab6fe89107ff83dcba0b310fb9f8fd3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_ccf18dc9e0013f006cc040cf6d8e6a97cad35255.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\NotifyMe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f5bb6dd1b675b7e8c3475bdb61fb33e2da424ee8">
+        <dex dex="F:\NotifyMe\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1afbd758b59ac27c26f895863e5c03a23dd5a56c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\41745278492bf8355b100cb453a7527061b6a30c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_732ac7d9a469f6cb54bc437fe9de9bfcf7ba9fe8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\NotifyMe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="F:\NotifyMe\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1e65b98532861cecf7b5193a9cc1ab8ca0556242\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\16be0a83b66d1eaa7cc4066671dbecb8e5161e6b\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_07f83b001a604ecccc563776e7c556ad90945522.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\c533ea613d6efb3a4c00090cb2ccea6b8ad3f45d\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_7f1649494355ecc41944861d1f28853eca1a55db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\eb2ced37ecea28c8be8b9db7065519f1df78996d\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_4012aed060e72bd6587a579ce75e9097ad65ee5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\73af3085a0284da892a09177e18802e298196d55\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_3cd7028ff4ebbbe8d685f118e65bd218ff2c979b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_6ac32eb99df8d8a54a4384c62f92e1a506ebe644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\77fa52380ab6fe89107ff83dcba0b310fb9f8fd3\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_e19f5f976774621f6d46f32dee17a0f0bfb61b61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\ac7b1e108e75fb8242d908cd754e51d65581406c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_20999f1a7b0f4be40da93cdc90cc38331aee1b8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\10dd5d4235f2cf1adc2b48713cd24c6fdaaf2b18\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_e4ce551e098cc4ddd084c981e784e9f3ae4fac9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\c533ea613d6efb3a4c00090cb2ccea6b8ad3f45d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_c4ac8cfba6a005606e7b122262406a0bacd5b68d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\99aa5e4f3f22814d02aa0d18575f26dace656ce8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_6a2ae3265800a832eedbb922c0e6984bf094dd68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\ef562cc07dae32bd81b5c9cc3dcce3ebc65193d1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_d85ec967eb7c0d18fce81cd78e82c823a8a63f2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\0294a649623d309836d3fa872ba959d13ffb987f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_51c3fc6b30a844d1492725a9a7324f0fdd70274e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\73af3085a0284da892a09177e18802e298196d55\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_e7ef5aa1eb42bbc72ddd5eeff3670f66e740d43c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\16be0a83b66d1eaa7cc4066671dbecb8e5161e6b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_fd5350a888f5203331972db14b87a6a20a471a1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\eb2ced37ecea28c8be8b9db7065519f1df78996d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_9ee768a163b2a9f811ab3617965bc0edf28962b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Myst\.android\build-cache\a71ebfb87852f6fdacb7609e97cfb54a36381cd9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="F:\NotifyMe\app\build\intermediates\pre-dexed\debug\classes_dfd85c796e814b7c1fe4043f83255c561b991767.jar" />
+    </item>
+
+</items>
