@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="#607d8b"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.myst.notifyme.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="#ffffff">
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/days_spinner"
+                    android:textAlignment="center"
+                    android:entries="@array/days" />
+            </LinearLayout>
+
+
+            <!-- first block -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:weightSum="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="[ I ]"
+                    android:id="@+id/first"
+                    android:background="#ffffcc"
+                    android:gravity="center"
+                    android:textSize="50px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Lecture Type"
+                        android:id="@+id/lecture_type1"
+                        android:background="#00ffbf"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Time"
+                        android:id="@+id/time1"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher"
+                        android:id="@+id/teacher1"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/classroom1"
+                        android:background="#70dbdb"
+                        android:hint="Classroom"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <!-- second block -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:weightSum="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="[ II ]"
+                    android:id="@+id/second"
+                    android:background="#ffffcc"
+                    android:gravity="center"
+                    android:textSize="50px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Lecture Type"
+                        android:id="@+id/lecture_type2"
+                        android:background="#00ffbf"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Time"
+                        android:id="@+id/time2"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher"
+                        android:id="@+id/teacher2"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/classroom2"
+                        android:background="#70dbdb"
+                        android:hint="Classroom"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- third block -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:weightSum="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="[ III ]"
+                    android:id="@+id/third"
+                    android:background="#ffffcc"
+                    android:gravity="center"
+                    android:textSize="50px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Lecture Type"
+                        android:id="@+id/lecture_type3"
+                        android:background="#00ffbf"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Time"
+                        android:id="@+id/time3"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher"
+                        android:id="@+id/teacher3"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/classroom3"
+                        android:background="#70dbdb"
+                        android:hint="Classroom"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- fourth block -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:weightSum="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="[ IV ]"
+                    android:id="@+id/fourth"
+                    android:background="#ffffcc"
+                    android:gravity="center"
+                    android:textSize="50px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Lecture Type"
+                        android:id="@+id/lecture_type4"
+                        android:background="#00ffbf"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Time"
+                        android:id="@+id/time4"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher"
+                        android:id="@+id/teacher4"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/classroom4"
+                        android:background="#70dbdb"
+                        android:hint="Classroom"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- fifth block -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:weightSum="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="[ V ]"
+                    android:id="@+id/fifth"
+                    android:background="#ffffcc"
+                    android:gravity="center"
+                    android:textSize="50px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Lecture Type"
+                        android:id="@+id/lecture_type5"
+                        android:background="#00ffbf"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Time"
+                        android:id="@+id/time5"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher"
+                        android:id="@+id/teacher5"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/classroom5"
+                        android:background="#70dbdb"
+                        android:hint="Classroom"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- sixth block -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:weightSum="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="[ VI ]"
+                    android:id="@+id/sixth"
+                    android:background="#ffffcc"
+                    android:gravity="center"
+                    android:textSize="50px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Lecture Type"
+                        android:id="@+id/lecture_type6"
+                        android:background="#00ffbf"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Time"
+                        android:id="@+id/time6"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher"
+                        android:id="@+id/teacher6"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/classroom6"
+                        android:background="#70dbdb"
+                        android:hint="Classroom"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- seventh block -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:weightSum="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="[ VII ]"
+                    android:id="@+id/seventh"
+                    android:background="#ffffcc"
+                    android:gravity="center"
+                    android:textSize="50px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Lecture Type"
+                        android:id="@+id/lecture_type7"
+                        android:background="#00ffbf"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Time"
+                        android:id="@+id/time7"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher"
+                        android:id="@+id/teacher7"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/classroom7"
+                        android:background="#70dbdb"
+                        android:hint="Classroom"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- eighth block -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:weightSum="3"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="[ VIII ]"
+                    android:id="@+id/eighth"
+                    android:background="#ffffcc"
+                    android:gravity="center"
+                    android:textSize="50px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Lecture Type"
+                        android:id="@+id/lecture_type8"
+                        android:background="#00ffbf"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Time"
+                        android:id="@+id/time8"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Teacher"
+                        android:id="@+id/teacher8"
+                        android:background="#80ff80"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/classroom8"
+                        android:background="#70dbdb"
+                        android:hint="Classroom"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
